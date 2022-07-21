@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to="/postyourresume">Post Your Resume</Link>
           <Link to="/signin"><h3 style={{color:"blue" , fontSize:"16px" , fontWeight:"bold"}}>Sign in</h3></Link>
          <label htmlFor="">|</label>
-          <Link to="signin"> Employers / Post</Link>
+          <Link to="/signin"> Employers / Post</Link>
         </Flex>
       </Box>
      

@@ -8,6 +8,7 @@ import FindJobs from '../components/FindJobs';
 import CompanyReviews from '../components/CompanyReviews';
 import PostYourResume from '../components/PostYourResume';
 import SignIn from '../components/SignIn';
+import About from '../components/About';
 
 
 const AllRoutes = () => {
@@ -21,6 +22,7 @@ const AllRoutes = () => {
      <Route path="/logoflower" element={<LogoFlower />}></Route>
      <Route path='/postyourresume' element={<PostYourResume />}></Route>
      <Route path='/signin' element={<SignIn />}></Route>
+     <Route path='/about' element={<About/>}></Route>
   
  </Routes>
   )

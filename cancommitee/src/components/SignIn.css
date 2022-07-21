@@ -8,7 +8,7 @@
     align-items: center;
     height: 80vh;
     background-color: "red";
-    max-width: 500px;
+    max-width: 550px;
     width: 100%;
     margin: auto;
   }
@@ -58,4 +58,10 @@
     font-size:smaller;
     text-align: justify;
    
+  }
+
+  li:hover {
+    text-decoration: underline black;
+    text-underline-position: under;
+    
   }
