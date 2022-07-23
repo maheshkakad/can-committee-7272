@@ -1,0 +1,16 @@
+.cartbox {
+  
+    
+}
+
+.cartbox1 {
+    width: 100%;
+    height: 190px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding-top: 20px;
+    
+    
+}

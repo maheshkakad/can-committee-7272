@@ -1,6 +1,7 @@
 import React from 'react'
 
-const PostYourResume = () => {
+const PostYourResume = ({data}) => {
+  console.log(data)
   return (
     <div>PostYourResume</div>
   )

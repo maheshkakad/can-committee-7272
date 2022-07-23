@@ -4,12 +4,14 @@ import { Box,Flex,Image,Divider } from "@chakra-ui/react"
 
 
 const Navbar = () => {
+
+ 
    return(
       <Box>
    <Flex justifyContent="space-between">
       <Box padding="20px 40px 10px 40px">
        <Flex justifyContent="space-between" gap="20px" >
-        <Box width="100px"> <Link to="/logoindeed"><img src="https://i.pinimg.com/736x/67/6e/3a/676e3aada56f68de9413bfe54d8b539a.jpg" alt="" /></Link></Box>
+        <Box width="100px"> <Link  to="/logoindeed"><img src="https://i.pinimg.com/736x/67/6e/3a/676e3aada56f68de9413bfe54d8b539a.jpg" alt="" /></Link></Box>
         <Box > <Link to="./logoflower"><Image height="45px"
         src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/></Link></Box>
          <Link to="/findjobs">Find Jobs</Link>

@@ -9,6 +9,7 @@ import CompanyReviews from '../components/CompanyReviews';
 import PostYourResume from '../components/PostYourResume';
 import SignIn from '../components/SignIn';
 import About from '../components/About';
+import CareerAdvise from '../components/CareerAdvise';
 
 
 const AllRoutes = () => {
@@ -23,6 +24,7 @@ const AllRoutes = () => {
      <Route path='/postyourresume' element={<PostYourResume />}></Route>
      <Route path='/signin' element={<SignIn />}></Route>
      <Route path='/about' element={<About/>}></Route>
+     <Route path='/careeradvise' element={<CareerAdvise />}></Route>
   
  </Routes>
   )

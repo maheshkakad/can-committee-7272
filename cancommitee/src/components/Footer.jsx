@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Footer = () => (
   <footer className="footer">
     <ul style={{ display: "flex", listStyleType: "none"  ,fontSize: "15px" ,gap:"20px"}}>
-        <li><Link to="#">Career Advice</Link></li>
+        <li><Link to="careeradvise">Career Advice</Link></li>
         <li><Link to="#">Browse Jobs</Link></li>
         <li><Link to="#">Browse Companies</Link></li>
         <li><Link to="#">Salaries</Link></li>
