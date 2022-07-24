@@ -4,7 +4,7 @@ const LogoFlower = ({ data }) => {
 
   console.log(data.title)
   return (
-    <div>juubhvhvhhvcffcfcfcfcytvgcvgbhnbvcvbnm</div>
+    <div>flower</div>
   )
 }
 

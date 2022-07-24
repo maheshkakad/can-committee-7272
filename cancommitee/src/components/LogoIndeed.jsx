@@ -4,7 +4,7 @@ import Search from './Search'
 
 const LogoIndeed = () => {
   return (
-    <div>LogoIndeed
+    <div>
         
         <Search />
         <Link to="/" >Home</Link>

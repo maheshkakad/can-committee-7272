@@ -10,6 +10,8 @@ import PostYourResume from '../components/PostYourResume';
 import SignIn from '../components/SignIn';
 import About from '../components/About';
 import CareerAdvise from '../components/CareerAdvise';
+import Covid19 from '../pages/Covid19';
+
 
 
 const AllRoutes = () => {
@@ -25,6 +27,7 @@ const AllRoutes = () => {
      <Route path='/signin' element={<SignIn />}></Route>
      <Route path='/about' element={<About/>}></Route>
      <Route path='/careeradvise' element={<CareerAdvise />}></Route>
+     <Route path="/covid" element={<Covid19 />}></Route>
   
  </Routes>
   )

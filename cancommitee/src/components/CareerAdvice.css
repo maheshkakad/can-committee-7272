@@ -38,3 +38,33 @@
       width:300px;
       border-radius:10px;
 }
+.bottombox {
+    margin-top: 250px;
+    
+}
+.bottombox div {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+
+.bottombox div img {
+    width: 200px;
+}
+
+.smalldiv {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.smalldiv p {
+   color: gray;
+}
+
