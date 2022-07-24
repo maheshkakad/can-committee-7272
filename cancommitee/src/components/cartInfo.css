@@ -1,0 +1,31 @@
+.cartbox {
+  
+    
+}
+
+.cartbox1 {
+    width: 80%;
+    height: 220px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding-top: 20px;
+    
+    
+}
+
+.cartbox1:hover {
+    border: 2px solid rgb(38, 5, 227);
+}
+.cartbox2 {
+    width: 20%;
+    height: 200px;
+    background-color: red;
+}
+.title {
+    font-weight: bold;
+}
+.titlebold {
+    font-weight: bold;
+}

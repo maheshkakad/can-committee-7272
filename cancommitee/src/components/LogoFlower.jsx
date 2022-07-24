@@ -1,8 +1,10 @@
 import React from 'react'
 
-const LogoFlower = () => {
+const LogoFlower = ({ data }) => {
+
+  console.log(data.title)
   return (
-    <div>LogoFlower</div>
+    <div>flower</div>
   )
 }
 

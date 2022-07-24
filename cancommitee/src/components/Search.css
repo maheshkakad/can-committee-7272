@@ -1,0 +1,36 @@
+
+.brothers {
+    display: flex;
+    justify-content: center;
+    padding: 100px ;
+}
+.rigthbox {
+    width: 45%;
+    height: 900px;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+}
+.leftbox {
+     width: 110%;
+     height: 1600px;
+     margin-left: 30px;
+     overflow-y: scroll;
+}
+
+.leftbox::-webkit-scrollbar {
+    width: 12px;             
+  }
+  
+  .leftbox::-webkit-scrollbar-track {
+    background: white;       
+  }
+  
+  .leftbox::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 20px;       
+    border: 3px solid white; 
+  }
+
+  .headline {
+    color: gray;
+  }

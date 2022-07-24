@@ -17,7 +17,7 @@ const SignIn = () => {
 
     const handleSubmit =(e) => {
        e.preventDefault();
-       navigate("/about")
+       navigate("/logoindeed")
     }
     console.log(formvalue)
   

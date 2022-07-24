@@ -1,0 +1,70 @@
+.backgroundimg {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    background-image: url('https://d4y70tum9c2ak.cloudfront.net/v3/cg-header-background-mobile.svg');
+    height: 23.75rem;
+    background-repeat:inherit;
+    background-size: cover;
+    grid-template-columns: inherit;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    padding-top: 300px;
+}
+.first-txt {
+    position: absolute;
+    top: 117px;
+    left: 160px;
+    font-size: 80px;
+    color: white;
+}
+.first-txt2 {
+    position: absolute;
+    top: 220px;
+    left: 160px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.setlink {
+    width: 300px;
+}
+.setlink:hover {
+    text-decoration: underline black;
+    text-underline-position: under;
+}
+.imgwoman {
+      width:300px;
+      border-radius:10px;
+}
+.bottombox {
+    margin-top: 250px;
+    
+}
+.bottombox div {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+
+.bottombox div img {
+    width: 200px;
+}
+
+.smalldiv {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.smalldiv p {
+   color: gray;
+}
+

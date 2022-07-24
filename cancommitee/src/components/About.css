@@ -1,0 +1,54 @@
+
+
+.box1 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-right: 7%;
+}
+.box2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-right: 28%;
+}
+.box1 > div {
+    height: 600px;
+    width: 50%;
+    /* border: 1px solid red; */
+    gap: 10px;
+    padding: 20px;
+    
+    
+}
+.paraonebox {
+    width: 100px;
+    
+   
+}
+.imggirl {
+    width: 620px;
+    
+}
+.about {
+    font-size: 55px;
+    font-family: sans-serif;
+    justify-content: flex-start;
+}
+.parabig {
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.paradark {
+    font-weight:bold;
+    font-family: sans-serif;
+    color: gray;
+    text-align: justify;
+}
+
+.heading4 {
+    font-size: 70px;
+    font-weight: bold;
+    color:rgb(55, 106, 188);
+}
